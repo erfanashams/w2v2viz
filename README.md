@@ -75,7 +75,7 @@ Phonetic articulatory features are based on IPA charts defined as follows:
 ![Layer 9 Frame 152](assets/SX409_L9_F153.svg)
 
 # Frame-wise Visualization of k-th Transition
-![SX409_L9_F151-157](https://github.com/erfanashams/w2v2viz/assets/SX409_L9_F151-157.svg)
+![SX409_L9_F151-157](assets/SX409_L9_F151-157.svg)
 
 # Layer-wise Visualization of a Single Frame
-![SX409_L0-12_F153](https://github.com/erfanashams/w2v2viz/assets/SX409_L0-12_F153.svg)
+![SX409_L0-12_F153](assets/SX409_L0-12_F153.svg)
