@@ -2,7 +2,7 @@
 A visualizer tool based on phonetic articulatory feature probing on wav2vec 2.0 base model.
 
 # Feature Mapping
-Phonetic articulatory features are based on IPA charts defined as follows:
+Phonetic articulatory features are based on IPA charts (with ARPAbet notations) defined as follows:
 
 | phone | cat | poa | moa | voicing | height | back | rounding |
 |-------|-----|-----|-----|---------|--------|------|----------|
