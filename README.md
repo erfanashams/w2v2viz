@@ -72,10 +72,10 @@ Phonetic articulatory features are based on IPA charts defined as follows:
 | 2     | sil | -   | -   | -       | -      | -    | -        |
 
 # A Sample from w2v2viz Visualzier
-![Layer 9 Frame 152](https://github.com/erfanashams/w2v2viz/assets/65121139/4ed5921d-f6f1-45b3-8d89-a30eb8ab5e3b)
+![Layer 9 Frame 152](https://github.com/erfanashams/w2v2viz/assets/SX409_L9_F153.svg)
 
 # Frame-wise Visualization of k-th Transition
-![SX409_L9_F151-157](https://github.com/erfanashams/w2v2viz/assets/65121139/245e60a3-86cb-46cc-8d4c-d804842b9248)
+![SX409_L9_F151-157](https://github.com/erfanashams/w2v2viz/assets/SX409_L9_F151-157.svg)
 
 # Layer-wise Visualization of a Single Frame
-![SX409_L0-12_F153](https://github.com/erfanashams/w2v2viz/assets/65121139/5afa26e3-aa5c-4959-9b5e-3b2c32d7470a)
+![SX409_L0-12_F153](https://github.com/erfanashams/w2v2viz/assets/SX409_L0-12_F153.svg)
