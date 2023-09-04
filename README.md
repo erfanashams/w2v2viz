@@ -1,4 +1,4 @@
-# w2v2viz
+# WAV2VEC 2.0 Probe Visualizer (w2v2viz)
 A visualizer tool based on phonetic articulatory feature probing on wav2vec 2.0 base model.
 
 # Feature Mapping
