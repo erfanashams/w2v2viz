@@ -1,7 +1,11 @@
 # WAV2VEC 2.0 Probe Visualizer (w2v2viz)
 A visualizer tool based on phonetic articulatory feature probing on wav2vec 2.0 base model.
+
 ## Developers/Authors
 Patrick Cormac English, Erfan A. Shams, John D. Kelleher, Julie Carson-Berndsen
+
+## Publication
+TBA
 
 ## Feature Mapping
 Phonetic articulatory features are based on IPA charts (with ARPAbet notations) defined as follows:
@@ -76,8 +80,11 @@ Phonetic articulatory features are based on IPA charts (with ARPAbet notations) 
 ## A Sample from w2v2viz Visualzier
 ![Layer 9 Frame 152](assets/SX409_L9_F153.svg)
 
-## Frame-wise Visualization of k-th Transition
+## Frame-wise Visualization of K-TH Transition
 ![SX409_L9_F151-157](assets/SX409_L9_F151-157.svg)
 
 ## Layer-wise Visualization of a Single Frame
 ![SX409_L0-12_F153](assets/SX409_L0-12_F153.svg)
+
+### Cite as
+<place holder>
