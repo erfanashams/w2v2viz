@@ -10,7 +10,7 @@ TBA
 ## Feature Mapping
 Phonetic articulatory features are based on IPA charts (with ARPAbet notations) defined as follows:
 
-| phone | cat | poa | moa | voicing | height | back | rounding |
+| phone | cat | poa | moa | voicing |  back  |height| rounding |
 |-------|-----|-----|-----|---------|--------|------|----------|
 | b     | con | 0   | 0   | 1       | -      | -    | -        |
 | d     | con | 3   | 0   | 1       | -      | -    | -        |
