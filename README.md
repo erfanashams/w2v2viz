@@ -28,7 +28,7 @@ Phonetic articulatory features are based on IPA charts (with ARPAbet notations) 
 | kcl   | sil | -   | -   | -       | -      | -    | -        |
 | tck   | sil | -   | -   | -       | -      | -    | -        |
 | jh    | con | 4   | 4   | 1       | -      | -    | -        |
-| ch    | con | 5   | 4   | 0       | -      | -    | -        |
+| ch    | con | 4   | 4   | 0       | -      | -    | -        |
 | s     | con | 3   | 4   | 0       | -      | -    | -        |
 | sh    | con | 4   | 4   | 0       | -      | -    | -        |
 | z     | con | 3   | 4   | 1       | -      | -    | -        |
@@ -39,13 +39,13 @@ Phonetic articulatory features are based on IPA charts (with ARPAbet notations) 
 | dh    | con | 2   | 4   | 1       | -      | -    | -        |
 | m     | con | 0   | 1   | 1       | -      | -    | -        |
 | n     | con | 3   | 1   | 1       | -      | -    | -        |
-| ng    | con | 7   | 0   | 0       | -      | -    | -        |
+| ng    | con | 7   | 1   | 1       | -      | -    | -        |
 | em    | con | 0   | 1   | 1       | -      | -    | -        |
 | en    | con | 3   | 1   | 1       | -      | -    | -        |
 | eng   | con | 7   | 1   | 1       | -      | -    | -        |
-| nx    | con | 3   | 3   | 1       | -      | -    | -        |
+| nx    | con | 3   | 1   | 1       | -      | -    | -        |
 | l     | con | 3   | 7   | 1       | -      | -    | -        |
-| r     | con | 3   | 2   | 1       | -      | -    | -        |
+| r     | con | 3   | 6   | 1       | -      | -    | -        |
 | w     | con | 1   | 6   | 1       | -      | -    | -        |
 | y     | con | 6   | 6   | 1       | -      | -    | -        |
 | hh    | con | 10  | 4   | 0       | -      | -    | -        |
