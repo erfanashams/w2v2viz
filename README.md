@@ -7,6 +7,11 @@ Patrick Cormac English, Erfan A. Shams, John D. Kelleher, Julie Carson-Berndsen
 ## Publication
 TBA
 
+## Frame Aggregation and Feature Mapping Process
+The aggregation process is done by averaging phones.
+
+![Sample phone-averaging and feature-labeling process](assets/mapping.png)
+
 ## Feature Mapping
 Phonetic articulatory features are based on IPA charts (with ARPAbet notations) defined as follows:
 
