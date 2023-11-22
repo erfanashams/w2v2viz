@@ -10,7 +10,7 @@ TBA
 ## Frame Aggregation and Feature Mapping Process
 The aggregation process is done by averaging phones.
 
-![Sample phone-averaging and feature-labeling process](assets/mapping.png)
+![Sample phone-averaging and feature-labeling process](assets/mapping.png | width=100)
 
 ## Feature Mapping
 Phonetic articulatory features are based on IPA charts (with ARPAbet notations) defined as follows:
