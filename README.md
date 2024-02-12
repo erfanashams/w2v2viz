@@ -7,6 +7,36 @@ Patrick Cormac English, Erfan A. Shams, John D. Kelleher, Julie Carson-Berndsen
 ## Publication
 TBA
 
+
+## Methodology Diagram & Outline
+
+![Flat Methodology Diagram](https://github.com/erfanashams/w2v2viz/assets/29228016/67a89cfb-cb29-4096-bcf7-ea999cbc18f8)
+
+## Data Preparation
+
+We processed audio data from the TIMIT dataset using the wav2vec 2.0 model to generate embeddings for computational phonology analysis. The following steps were taken:
+
+1. **Embedding Generation**: We ran the wav2vec 2.0 model on each .wav file from the TIMIT training and test datasets to produce embeddings. The model was configured to output hidden states of shape [13*N*768] for each file, where N represents the number of frames based on the audio length and 768 is the dimensionality of each embedding.
+
+2. **Time-Step Representation**: Each [1*768] slice within the tensor corresponds to a 25ms frame of the speech signal with a 20ms stride. These time-step representations are consistent across all 12 transformer layers and the initial CNN output (layer 0).
+
+3. **Phone Labelling**: Using TIMIT's time-aligned phonetic annotations, we mapped each time-step representation to its corresponding phone label. This was achieved by aligning the time-step positions in the [N*768] sequence with the TIMIT annotations.
+
+4. **Test Set Separation**: We set aside 258,040 time-step samples from the TIMIT test set for evaluation purposes, as detailed in the upcoming probing task section.
+
+## Data Processing and Labelling
+
+For the training set, we implemented the following procedure:
+
+1. **Phone-Averaged Representations**: Following a modified approach from Shah et al. (2021), we averaged the embeddings for each phone occurrence in the audio to create phone-averaged representations. This process resulted in 13 datasets (one for each layer) with 175,232 phone-averaged representations.
+
+2. **Feature Annotation**: Each phone-averaged representation was annotated with feature labels for  phonetic features. These annotations were derived directly from the phone labels.
+
+The same feature annotation method was applied to the 258,040 time-step representations from the TIMIT test set.
+
+
+
+
 ## Frame Aggregation and Feature Mapping Process
 The aggregation process is done by averaging phones.
 
