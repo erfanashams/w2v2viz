@@ -1,0 +1,12 @@
+datasets==2.11.0
+joblib==1.2.0
+librosa==0.10.0.post2
+matplotlib==3.7.1
+numpy==1.23.5
+pandas==2.0.1
+PySoundFile==0.9.0.post1
+scipy==1.10.1
+sounddevice==0.4.6
+soundfile==0.12.1
+torch==2.0.0+cu118
+transformers==4.34.0
