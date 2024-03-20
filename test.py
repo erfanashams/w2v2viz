@@ -1,5 +1,3 @@
-import librosa
-
 from w2v2viz_ext import w2v2viz_ext
 
 file = r"TIMIT_sample/LDC93S1.wav"
