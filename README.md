@@ -5,7 +5,7 @@ A visualizer tool based on phonetic articulatory feature probing on wav2vec 2.0 
 Patrick Cormac English, Erfan A. Shams, John D. Kelleher, Julie Carson-Berndsen
 
 ## Publication
-Following the Embedding: Identifying Transition Phenomena in Wav2vec 2.0 Representations of Speech Audio 
+Following the Embedding: Identifying Transition Phenomena in Wav2vec 2.0 Representations of Speech Audio <br>
 ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
 
 
