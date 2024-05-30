@@ -8,6 +8,18 @@ Patrick Cormac English, Erfan A. Shams, John D. Kelleher, Julie Carson-Berndsen
 Following the Embedding: Identifying Transition Phenomena in Wav2vec 2.0 Representations of Speech Audio <br>
 ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
 
+## Installation and Usage
+Clone the repository using the command below:
+
+```git clone https://github.com/erfanashams/w2v2viz.git```
+
+Navigate to w2v2viz folder:
+
+```cd w2v2viz```
+
+Run the test.py for an example of how to use the module with an existing .wav file:
+
+```python test.py```
 
 ## Methodology Diagram & Outline
 
