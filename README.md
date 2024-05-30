@@ -11,15 +11,21 @@ ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal
 ## Installation and Usage
 Clone the repository using the command below:
 
-```git clone https://github.com/erfanashams/w2v2viz.git```
+```
+git clone https://github.com/erfanashams/w2v2viz.git
+```
 
 Navigate to w2v2viz folder:
 
-```cd w2v2viz```
+```
+cd w2v2viz
+```
 
 Run the test.py for an example of how to use the module with an existing .wav file:
 
-```python test.py```
+```
+python test.py
+```
 
 ## Methodology Diagram & Outline
 
