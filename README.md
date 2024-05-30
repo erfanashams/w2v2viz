@@ -15,10 +15,14 @@ Clone the repository using the command below:
 git clone https://github.com/erfanashams/w2v2viz.git
 ```
 
-Navigate to w2v2viz folder:
+Navigate to w2v2viz folder and install the requirements:
 
 ```
 cd w2v2viz
+```
+
+```
+pip install -r requirements.txt
 ```
 
 Run the test.py for an example of how to use the module with an existing .wav file:
