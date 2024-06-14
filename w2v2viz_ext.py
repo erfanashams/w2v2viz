@@ -492,9 +492,9 @@ def w2v2viz_ext(filename,
         phone = prob_dict[layer][frame]["phone"][0]
         poa_pred, moa_pred, voicing_round = get_con_label(category, xyzver, layer, str(sb))
 
-        speclines[sb] = spec_axes.axvline(x=line_start + (sb * spec_time_per_frame), ymin=0, ymax=1, color="red",
+        speclines[sb] = spec_axes.axvline(x=line_start + (sb * spec_time_per_frame), ymin=0, ymax=1, color="white",
                                           linestyle="--", linewidth=spec_width, alpha=spec_alpha)
-        # spec_axes.vlines(int(frame_) * 25 * 16, 0, 1, "red", "--")
+        # spec_axes.vlines(int(frame_) * 25 * 16, 0, 1, "white", "--")
 
         ax[sb] = fig.add_subplot(rows, max_cols, sb + 1, projection='3d')
         plt.subplots_adjust(left=0.015, right=0.95, top=1.0, bottom=0.370)
@@ -541,7 +541,7 @@ def w2v2viz_ext(filename,
 
     update = updater.update
 
-    speclines[sb + 1] = spec_axes.axvline(x=line_start + ((sb + 1) * spec_time_per_frame), ymin=0, ymax=1, color="red",
+    speclines[sb + 1] = spec_axes.axvline(x=line_start + ((sb + 1) * spec_time_per_frame), ymin=0, ymax=1, color="white",
                                           linestyle="--", linewidth=spec_width, alpha=spec_alpha)
 
     sldr_y1 = 0.012
