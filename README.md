@@ -11,25 +11,40 @@ ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal
 ## Installation and Usage
 Clone the repository using the command below:
 
-```
+```bash
 git clone https://github.com/erfanashams/w2v2viz.git
 ```
 
 Navigate to w2v2viz folder and install the requirements:
 
-```
+```bash
 cd w2v2viz
 ```
 
-```
+```bash
 pip install -r requirements.txt
 ```
+Import the extended version of w2v2viz:
 
-Run the test.py for an example of how to use the module with an existing .wav file:
-
+```python
+from w2v2viz_ext import w2v2viz_ext
 ```
+
+Run w2v2viz using a provided wav file:
+
+```python
+file = r"TIMIT_sample/LDC93S1.wav"
+
+w2v2viz_ext(filename=file)
+```
+
+Alternately, run the `test.py` for an example of how to use the module with an existing .wav file:
+
+```bash
 python test.py
 ```
+
+![extended_example](assets/W2V2VIZ_LDC93S1.png)
 
 ## Methodology Diagram & Outline
 
@@ -57,6 +72,18 @@ For the training set, we implemented the following procedure:
 
 The same feature annotation method was applied to the 258,040 time-step representations from the TIMIT test set.
 
+## Installation and Usage
+Clone the repository using the command below:
+
+```git clone https://github.com/erfanashams/w2v2viz.git```
+
+Navigate to w2v2viz folder:
+
+```cd w2v2viz```
+
+Run the test.py for an example of how to use the module with an existing .wav file:
+
+```python test.py```
 
 
 
